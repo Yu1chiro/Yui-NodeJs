@@ -1,0 +1,23 @@
+{
+  "name": "scrapping",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^6.6.0",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-writer": "^1.6.0",
+    "docx": "^8.5.0",
+    "puppeteer": "^22.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="showPrompt()">Klik untuk Memunculkan Prompt</button>
+
+    <script>
+        function showPrompt() {
+            // Menampilkan prompt alert
+            var userInput = prompt("Silakan masukkan sesuatu:");
+            
+            // Memeriksa apakah pengguna memasukkan sesuatu
+            if (userInput !== null) {
+                alert("Anda telah memasukkan: " + userInput);
+            } else {
+                alert("Anda menekan Batal atau tidak memasukkan apa-apa.");
+            }
+        }
+    </script>
+</body>
+</html>
